@@ -1,2 +1,4 @@
-# dltnexus
-Distributed Ledger Technology Hub
+# DLT NEXUS
+
+## Distributed Ledger Technology Hub
+### Innovation. Integration. Incubation.
