@@ -19,8 +19,8 @@ DLT NEXUS is a platform focused on advancing distributed ledger technology solut
 
 ## Getting Started
 
-Documentation and setup instructions will be available in Q1 2025.
+Documentation will be available in Q1 2025.
 
 ## Contact
 
-For more information, please reach out to [dltnexus@protonmail.com]
+For more information, contact [dltnexus@protonmail.com]
