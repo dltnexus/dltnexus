@@ -1,14 +1,14 @@
-# DLT NEXUS
+# DLT Nexus
 
 ## Distributed Ledger Technology Hub
 
-### Innovation. Integration. Incubation
+### Innovation | Integration | Incubation
 
-With the availability of new AI Agents and Deep Learning tools in 2025, DLTNexus is being pulled out of cold storage and going live.
+With the availability of new AI Agents and Deep Learning tools in 2025, the DLT Nexus Project is returning to life after being in cold storage for over 7 years.
 
 ## About
 
-DLT NEXUS is a platform focused on advancing distributed ledger technology solutions through innovation, seamless integration, and strategic incubation of promising projects.
+DLT Nexus is a platform focused on advancing distributed ledger technology solutions through innovation, seamless integration, and strategic incubation of promising projects.
 
 ## Features
 
@@ -43,13 +43,11 @@ _(Coming Soon)_
 
 ## Documentation
 
-Comprehensive documentation will be available at `docs.dltnexus.io` _(coming soon)_
+Comprehensive documentation will be available at `docs.dltnexus.com` _(coming soon)_
 
 ## Contributing
 
-We welcome contributions from the community. Please read our contributing guidelines before submitting pull requests.
-
-_(Contributing guidelines coming soon)_
+We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 
 ## License
 
