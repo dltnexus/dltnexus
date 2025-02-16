@@ -4,7 +4,7 @@
 
 ### Innovation. Integration. Incubation
 
-This project is being pulled out of cold storage and going live with the availability of new AI Agents and Deep Learning tools in 2025.
+With the availability of new AI Agents and Deep Learning tools in 2025, DLTNexus is being pulled out of cold storage and going live.
 
 ## About
 
@@ -13,21 +13,25 @@ DLT NEXUS is a platform focused on advancing distributed ledger technology solut
 ## Features
 
 - **Distributed Ledger Integration**: Seamless connection with major blockchain networks
-- **AI Agent Integration**: Advanced autonomous agents for process optimization
-- **Deep Learning Integration**: Neural network implementations for research and data analysis.
-- **Cross-Chain Communication**: Secure and efficient inter-blockchain messaging
-- **Enterprise Solutions**: Scalable solutions for private and publicbusiness implementation
+- **AI Agent Integration**: Advanced autonomous agents for research and data analysis
+- **Deep Learning Integration**: Neural network implementations for curation of data and research.
+- **Cross-Chain Tools**: Tools for interacting with multiple blockchains from a single interface.
+- **Enterprise-grade Security**: Multi-layered security measures to protect sensitive data and transactions.
+- **Enterprise Solutions**: Scalable solutions for private and public business implementation
 
 ## Technology Stack
 
-- Blockchain Platforms
+- Blockchain Agnostic Functionality
 - AI/ML Frameworks
 - Development Tools
-- Infrastructure
+- AI Agent Infrastructure
+- Enterprise Solutions
+- Identity and Data Security
 
 ## Getting Started
 
-Initial documentation upload and formatting will occur during Q1 2025.
+- Initial documentation and platform architecture will be uploaded to the 'docs' folder in Q1 2025.
+- Website will be updated with the latest information and features.
 
 ### Prerequisites
 
