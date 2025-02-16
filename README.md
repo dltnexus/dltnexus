@@ -55,7 +55,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- Twitter: [@Silksteele](https://x.com/Silksteele)
+- Twitter(X): [@Silksteele](https://x.com/Silksteele)
 - Email: [silksteele@pm.me](mailto:silksteele@pm.me)
 - Discord: [Silksteele#5362](https://discord.com/users/Silksteele#5362)
 
