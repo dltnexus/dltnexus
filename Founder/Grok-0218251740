@@ -1,0 +1,106 @@
+Bit By Bit Developers
+
+### Key Points
+- Bitbybit.dev is a web-based platform for creating 3D models and simulations using programming.
+- It offers visual and text-based editors for all skill levels, accessible on any modern browser.
+- Targets designers, artists, and educators with parametric design and dynamic simulations.
+- Surprisingly, it's open-source with core algorithms on GitHub, encouraging community contributions.
+
+### Overview
+**Bitbybit.dev** is a platform developed by Bit By Bit Developers that lets you create and customize 3D models and simulations right in your web browser. Whether you're a beginner or an expert, you can use visual tools like Blockly and Rete for easy drag-and-drop programming, or dive into advanced coding with TypeScript using the Monaco editor. It's designed to work on any device—Windows, Mac, Linux, or mobile—as long as you have a modern browser, making it super convenient for designing on the go or in the studio.
+
+### Purpose and Features
+The platform is all about **parametric 3D modeling**, meaning you can adjust parameters to change your designs dynamically, like resizing a laptop holder or customizing a cup. It also supports **dynamic simulations**, which could be animations or physics-based interactions. This makes it perfect for creative projects, educational purposes, and practical applications like CAD (Computer-Aided Design).
+
+### Target Audience
+It's great for **designers** who want to create custom 3D models, **artists** blending art with programming, and **educators** teaching 3D modeling or programming. Examples include a 3D printable vase or a cup configurator, showing how versatile it is.
+
+### Surprising Detail: Open-Source Community
+What's surprising is that the core algorithms are open-source, available on GitHub under the MIT license. This means anyone can contribute, and it's a community-driven effort, which is not common for such specialized platforms.
+
+---
+
+### Detailed Exploration of Bitbybit.dev Platform
+
+This section provides an in-depth analysis of the Bitbybit.dev platform, developed by Bit By Bit Developers, based on extensive research of the website and its connecting pages. The platform is a web-based solution for creating and manipulating 3D models and simulations, with a focus on accessibility, creativity, and community engagement. Below, we explore its features, target audience, technical underpinnings, and practical applications, ensuring a comprehensive understanding for both technical and non-technical readers.
+
+#### Platform Overview and Accessibility
+Bitbybit.dev is designed as a frictionless web platform, accessible on any device with an evergreen browser, including Windows, Mac, Linux, and mobile devices. This cross-platform compatibility ensures that users can design on-the-go or in a studio environment without the need for specialized hardware or software installations. The platform's web-based nature eliminates traditional barriers, making 3D modeling and simulation accessible to a broader audience.
+
+- **Browser Compatibility:** Requires only an evergreen browser, ensuring broad accessibility.
+- **Device Support:** Works seamlessly on desktops (Windows, Mac, Linux) and mobile devices, supporting on-the-go creativity.
+
+#### Editing Environments: Visual and Text-Based Programming
+One of the platform's standout features is its dual approach to programming, catering to users of varying skill levels through multiple editors:
+
+- **Visual Programming Editors:**
+  - **Blockly:** A block-based editor similar to Scratch, ideal for beginners and educational settings. It exposes 3D algorithms through a familiar interface, making it suitable for all ages.
+  - **Rete:** Another visual editor, potentially for more complex tasks, offering a node-based approach to programming geometry.
+
+- **Text-Based Editor:**
+  - **Monaco with TypeScript:** For advanced users, this editor provides a coding environment for writing TypeScript, offering maximum flexibility for custom 3D applications.
+
+The documentation ([Bit By Bit Developers Docs](https://docs.bitbybit.dev/)) indicates that while the API documentation is primarily for TypeScript, it is compatible with visual editors, sharing a common interface. This seamless switching between editors as user needs evolve is a key design feature, enhancing user experience and flexibility.
+
+#### Technical Underpinnings: Open-Source and CAD Kernels
+Bitbybit.dev leverages open-source technologies, with its core 3D algorithms housed in a monorepo on GitHub ([Bit By Bit Developers GitHub](https://github.com/bitbybit-dev/bitbybit)). The platform is built on several CAD kernels, each wrapped with additional algorithms:
+
+| Package Name               | Description                                                  |
+|----------------------------|--------------------------------------------------------------|
+| @bitbybit-dev/core         | Assembles various packages, combining CAD kernels.           |
+| @bitbybit-dev/jscad        | Wraps JSCAD with additional algorithms.                     |
+| @bitbybit-dev/jscad-worker | Exposes JSCAD via webworker for asynchronous, non-blocking calls. |
+| @bitbybit-dev/manifold     | Wraps MANIFOLD with additional algorithms.                  |
+| @bitbybit-dev/manifold-worker | Exposes MANIFOLD via webworker for asynchronous calls.      |
+| @bitbybit-dev/occt         | Wraps OpenCascade with additional algorithms.               |
+| @bitbybit-dev/occt-worker  | Exposes OpenCascade via webworker for asynchronous calls.   |
+| @bitbybit-dev/base         | Contains base algorithms like vector math, used across layers. |
+
+These packages are open-sourced under the MIT license, encouraging community contributions and transparency. The platform's decoupling from specific game engines, such as BabylonJS, in recent updates (e.g., v0.18.0) ensures independence and protection of corporate identity, with game engine integrations like @bitbybit-dev/babylonjs available separately.
+
+#### Parametric 3D Modeling and Dynamic Simulations
+The platform focuses on **parametric 3D modeling**, allowing users to create models where parameters can be adjusted to alter design outcomes. This is evident in examples like the laptop holder and cup configurator, where users can modify dimensions, shapes, or other attributes in real-time. **Dynamic simulations** extend this capability, supporting animations and physics-based interactions, which are crucial for applications in virtual reality, data visualizations, and simulations.
+
+- **Examples Include:**
+  - Laptop Holder: Customizable for different laptop sizes, available in Angular and React implementations ([GitHub Examples](https://github.com/bitbybit-dev/app-examples/tree/main/angular/laptop-holder), [GitHub Examples](https://github.com/bitbybit-dev/app-examples/tree/main/react/laptop-holder)).
+  - 3D Printable Vase: Adjustable for various shapes and sizes, using ThreeJS ([Bitbybit App Store](https://app-store.bitbybit.dev/bitbybit-threejs), [GitHub Examples](https://github.com/bitbybit-dev/app-examples/tree/main/react/bitbybit-threejs)).
+  - Cup Configurator: Interactive tool for customizing cups, available in BabylonJS and ThreeJS variants ([Bitbybit App Store](https://app-store.bitbybit.dev/cup), [GitHub Examples](https://github.com/bitbybit-dev/app-examples/tree/main/react/cup), [Bitbybit App Store](https://app-store.bitbybit.dev/cup-three), [GitHub Examples](https://github.com/bitbybit-dev/app-examples/blob/main/webpack/threejs/src/code/cup.ts)).
+
+These examples demonstrate the platform's versatility, supporting frameworks like Angular, React, NextJS, Nuxt, and NodeJS with Express, alongside game engines like BabylonJS and ThreeJS.
+
+#### Target Audience and Use Cases
+Bitbybit.dev targets a diverse audience, including:
+
+- **Designers:** For creating custom 3D models and configurators, useful in product design and prototyping.
+- **Artists:** For blending art with programming, exploring virtual reality, and creating data visualizations.
+- **Educators:** For STEAM-based education, leveraging visual programming for teaching 3D modeling and programming concepts.
+
+The platform's suitability for all ages is highlighted by its visual programming language, similar to Scratch and Blockly.Games, making it accessible for educational settings. Practical applications include parametric CAD models, virtual reality experiences, and simulations, as noted on the LinkedIn page ([Bit by bit developers LinkedIn](https://www.linkedin.com/company/bitbybit-dev)).
+
+#### Community and Commercial Context
+The platform is community-based, with a "JOIN US ON DISCORD!" invitation on the main page, fostering user interaction and collaboration. It also offers subscription plans (Silver or Gold) for additional features, as mentioned on GitHub, indicating a freemium model to support development.
+
+Additionally, there is a related entity, The BitByBit Company ([The BitByBit Company Website](https://thebitbybit.com/)), which offers bespoke software development solutions, including web and mobile applications. While not explicitly stated, the similarity in naming and focus on web-based 3D solutions suggests a potential connection, possibly as the commercial arm supporting the platform's development.
+
+#### Research Methodology
+The research involved a comprehensive web search using the query "bitbybit.dev," yielding results from the main website, GitHub repository, LinkedIn page, documentation, and related company site. Specific pages were browsed to extract details on features, examples, and technical underpinnings, ensuring a thorough understanding. The analysis included:
+
+- Main Website: [Bit By Bit Developers Website](https://bitbybit.dev/) for platform overview.
+- GitHub Repository: [Bit By Bit Developers GitHub](https://github.com/bitbybit-dev/bitbybit) for open-source details and examples.
+- Documentation: [Bit By Bit Developers Docs](https://docs.bitbybit.dev/) for technical insights.
+- LinkedIn: [Bit by bit developers LinkedIn](https://www.linkedin.com/company/bitbybit-dev) for company and platform description.
+- Company Site: [The BitByBit Company Website](https://thebitbybit.com/) for potential commercial context.
+
+This methodology ensured a holistic view, capturing both user-facing features and technical details.
+
+#### Conclusion
+Bitbybit.dev is a pioneering web-based platform for 3D modeling and simulation, offering a blend of visual and text-based programming, open-source accessibility, and broad device compatibility. Its focus on parametric design and dynamic simulations, supported by community engagement and educational applications, positions it as a versatile tool for creators and educators alike. The open-source nature and community-driven development are particularly noteworthy, enhancing its appeal and potential for growth.
+
+---
+
+### Key Citations
+- [Bit By Bit Developers Website Overview](https://bitbybit.dev/)
+- [Bit By Bit Developers GitHub Repository](https://github.com/bitbybit-dev/bitbybit)
+- [Bit By Bit Developers Documentation](https://docs.bitbybit.dev/)
+- [Bit by bit developers LinkedIn Profile](https://www.linkedin.com/company/bitbybit-dev)
+- [The BitByBit Company Website Services](https://thebitbybit.com/)
