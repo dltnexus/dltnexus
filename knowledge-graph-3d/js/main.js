@@ -444,15 +444,15 @@ class KnowledgeGraph {
 // Initialize the graph and load markdown files
 const graph = new KnowledgeGraph();
 const markdownFiles = [
-    '/knowledge-graph-3d/data/DLTNexus-PRD.md',
-    '/knowledge-graph-3d/data/Grok-0218251330.md',
-    '/knowledge-graph-3d/data/Grok-0218251654.md',
-    '/knowledge-graph-3d/data/Grok-0218251740.md',
-    '/knowledge-graph-3d/data/Grok-0218252347.md',
-    '/knowledge-graph-3d/data/Grok-0219250102.md',
-    '/knowledge-graph-3d/data/Grok-0219250152.md',
-    '/knowledge-graph-3d/data/Grok-0219251449.md',
-    '/knowledge-graph-3d/data/Grok-0220250127.md'
+    'data/DLTNexus-PRD.md',
+    'data/Grok-0218251330.md',
+    'data/Grok-0218251654.md',
+    'data/Grok-0218251740.md',
+    'data/Grok-0218252347.md',
+    'data/Grok-0219250102.md',
+    'data/Grok-0219250152.md',
+    'data/Grok-0219251449.md',
+    'data/Grok-0220250127.md'
 ];
 
 graph.loadMarkdownFiles(markdownFiles);
