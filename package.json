@@ -1,6 +1,37 @@
 {
+  "name": "dltnexus",
+  "version": "1.0.0",
+  "description": "DLT Nexus - A platform for advancing distributed ledger technology solutions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint src/**/*.js"
+  },
   "dependencies": {
     "node-fetch": "^3.3.2",
-    "node.js": "^0.0.1-security"
-  }
+    "express": "^4.18.2",
+    "three": "^0.161.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.3",
+    "eslint": "^8.56.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/dltnexus"
+  },
+  "keywords": [
+    "blockchain",
+    "dlt",
+    "distributed-ledger",
+    "ai",
+    "deep-learning"
+  ],
+  "author": "Silksteele",
+  "license": "MIT"
 }
