@@ -6,7 +6,8 @@ DLT Nexus is a platform focused on advancing distributed ledger technology solut
 
 ## Project Structure
 
-```
+```text
+
 dltnexus/
 ├── src/                    # Source code
 │   ├── core/              # Core functionality
@@ -25,6 +26,7 @@ dltnexus/
 ├── tests/                # Test files
 ├── scripts/              # Build and deployment scripts
 └── build/               # Compiled output
+
 ```
 
 ## Features
@@ -43,6 +45,7 @@ dltnexus/
    - npm (v9 or higher)
 
 2. **Installation**
+
    ```bash
    git clone https://github.com/username/dltnexus.git
    cd dltnexus
@@ -50,16 +53,19 @@ dltnexus/
    ```
 
 3. **Development**
+
    ```bash
    npm run dev
    ```
 
 4. **Build**
+
    ```bash
    npm run build
    ```
 
 5. **Testing**
+
    ```bash
    npm test
    ```
@@ -86,8 +92,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Roadmap
 
-- Q1 2025: Initial Documentation and Platform Architecture
-- Q2 2025: Pre-Alpha Testing
-- Q3 2025: Testnet Alpha Release
-- Q4 2025: Live Beta Release
-- Q1 2026: Production Release
+- Q1 2025: **v0.1.0-spec** (Initial Documentation and Platform Architecture)
+- Q2 2025: **v0.2.0-alpha** (Pre-Alpha Testing)
+- Q3 2025: **v0.3.0-alpha** (Testnet Alpha Release)
+- Q4 2025: **v0.4.0-beta** (Live Beta Release)
+- Q1 2026: **v1.0.0-prod** (Production Release)
