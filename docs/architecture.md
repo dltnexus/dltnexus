@@ -1,1 +1,1 @@
-Structure diagrams for core functions of the application.
+# Structure diagrams for core functions of the application #
