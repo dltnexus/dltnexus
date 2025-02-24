@@ -92,8 +92,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Roadmap
 
-- Q1 2025: **v0.1.0-spec** (Initial Documentation and Platform Architecture)
-- Q2 2025: **v0.2.0-alpha** (Pre-Alpha Testing)
-- Q3 2025: **v0.3.0-alpha** (Testnet Alpha Release)
-- Q4 2025: **v0.4.0-beta** (Live Beta Release)
-- Q1 2026: **v1.0.0-prod** (Production Release)
+- Q1 2025: `v0.1.000` (Initial Documentation and Platform Architecture)
+- Q2 2025: `v0.2.000-pre` (Pre-Alpha Testing)
+- Q3 2025: `v0.3.000-alpha` (Testnet Alpha Release)
+- Q4 2025: `v0.4.000-beta` (Live Beta Release)
+- Q1 2026: `v1.0.000` (Production Release)
