@@ -1,40 +1,19 @@
-# Dependencies
-node_modules/
-package-lock.json
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Build outputs
-build/
-dist/
-*.log
+# Virtual Environment
+venv/
+env/
 
-# IDE and editor files
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-.DS_Store
-Thumbs.db
 
-# Environment variables
-.env
-.env.local
-.env.*.local
+# Test files
+test.csv
+test_model.json
 
-# Debug logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Test coverage
-coverage/
-
-# Development artifacts
-CopilotIndices/
-FileContentIndex/
-v17/
-*.vsidx
-
-# Temporary files
-*.tmp
-*.temp
-.cache/
+# Logs
+*.log 
