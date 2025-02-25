@@ -1,3 +1,11 @@
+import sys
+from pathlib import Path
+
+# Add project root to Python path
+project_root = str(Path(__file__).parent.parent)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
 from app.config import settings
 from app.utils.file_ops import get_data_file_path, get_model_file_path, setup_logging
 import logging
